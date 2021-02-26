@@ -1,0 +1,40 @@
+body {
+    margin: -1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/img-5.jpg");
+  }
+  
+  span.pcdrillsname{
+    color: yellowgreen;
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #332;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f1f2f2;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #3CAF50;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }

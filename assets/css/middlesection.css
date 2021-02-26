@@ -1,0 +1,14 @@
+.middle-section 
+{
+    color: white;
+    text-align: center;
+}
+.middle-section a {
+    color: yellowgreen;
+}
+
+span.email
+{
+    color: purple;
+    background-color: seagreen;
+}
