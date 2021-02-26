@@ -1,18 +1,57 @@
 body
 {
+    background-image: url("../img/img-5.jpg");
     padding-left: 3%;
     padding-right: 3%;
+    background-color: blueviolet;
+    color: white;
 }
+#nav-bar a
+{
+    text-align: right;
+    background-color: yellowgreen;
+    display: inline-block;
+    margin-right: 10px;
+    /*float: right;*/
+}
+
+a
+{
+    background-color: tomato;
+    padding: unset;
+}
+p span{
+    border: 2px solid gray;
+    padding: 1px;
+}
+
 h1
 {
     text-align: center;
     background-color: cornflowerblue;
     color: blue;
+    
 }
-p 
+#nav-bar:hover{
+    background-color: transparent;
+}
+h1:hover{
+    color: yellow;
+}
+a:hover
 {
-    background-color: rgb(254, 240, 255);
+    color: white;
+    background-color: blue;
+    font-size: larger;
+}*/
+
+.middle-section
+{
+    text-align: center;
 }
+/*a:active{}
+a:empty{}
+*/
 
 h4 
 {
