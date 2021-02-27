@@ -4,7 +4,9 @@
     color: black;
     text-align: center;
     background-color: white;
-    
+    width: 80%;
+    float: center;
+    margin-left: 10%;
 }
 .middle-section a {
     color: yellowgreen;
@@ -22,8 +24,8 @@ span.email
 
 .move-left
 {   
-    width: 47%;
-    margin-right: 1%;
+    width: 50%;
+    border-right: 1px dotted green;
     float: left;
     max-height: 100px;
     overflow: auto;
@@ -31,17 +33,28 @@ span.email
 .move-right
 {   
     overflow: auto;
-    width: 47%;
+    width: 49%;
+    border-left: 1px dotted green;
     max-height: 100px;
-    margin-left: 1%;
 }
 h4
 {
     padding-top: 2%;
 }
-sss
+
+.profilepic{
+    margin: 1px;
+}
+.profilepic img
 {
-    margin: 1%;
-    padding: 1%;
-    position: absolute;
+    /*border-radius: 10px solid green;
+    background-image: url("../img/myavartar.png");*/
+    height:150px;
+    border: 10px solid #FEDE00; 
+    border-radius: 40%;
+}
+
+.fewwords
+{
+    background-color: yellow;
 }
