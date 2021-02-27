@@ -1,7 +1,10 @@
 .middle-section 
 {
-    color: white;
+    padding-top: 1%;
+    color: black;
     text-align: center;
+    background-color: white;
+    
 }
 .middle-section a {
     color: yellowgreen;
@@ -11,4 +14,34 @@ span.email
 {
     color: purple;
     background-color: seagreen;
+}
+
+.middle-section h1{
+    color: blue;
+}
+
+.move-left
+{   
+    width: 47%;
+    margin-right: 1%;
+    float: left;
+    max-height: 100px;
+    overflow: auto;
+}
+.move-right
+{   
+    overflow: auto;
+    width: 47%;
+    max-height: 100px;
+    margin-left: 1%;
+}
+h4
+{
+    padding-top: 2%;
+}
+sss
+{
+    margin: 1%;
+    padding: 1%;
+    position: absolute;
 }

@@ -1,7 +1,8 @@
 body {
-    margin: -1;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../img/img-5.jpg");
+    background-color: white;
+
   }
   
   span.pcdrillsname{
@@ -12,8 +13,10 @@ body {
   }
 
   .topnav {
-    overflow: hidden;
-    background-color: #332;
+    /*overflow: hidden;*/
+    overflow: auto;
+    background-color: darkblue;
+    /*background-color: #332;*/
   }
   
   .topnav a {
@@ -26,15 +29,17 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: lightblue;
+    /*background-color: #ddd;*/
     color: black;
   }
   
   .topnav a.active {
-    background-color: #3CAF50;
+    background-color: blue;
     color: white;
   }
   
   .topnav-right {
     float: right;
   }
+
