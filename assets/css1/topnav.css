@@ -5,7 +5,11 @@
     font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
   }
-
+/*
+  .topnav:hover{
+    background-color: transparent;
+  }*/
+  
   .topnav {
     /*overflow: hidden;*/
     left: 0;
