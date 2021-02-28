@@ -1,0 +1,40 @@
+  
+  span.pcdrillsname{
+    color: yellowgreen;
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .topnav {
+    /*overflow: hidden;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: darkblue;
+    position: fixed;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f1f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .topnav a:hover {
+    background-color: lightblue;
+    /*background-color: #ddd;*/
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+
