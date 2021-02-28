@@ -5,6 +5,7 @@
     margin: 0;
     background-repeat: no-repeat;
     background-size: auto;
+    position: static;
     background-image: url("../img/img-5.jpg"); 
     text-align: center;
 }

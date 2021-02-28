@@ -12,7 +12,7 @@
     top: 0;
     width: 100%;
     background-color: darkblue;
-    position: fixed;
+    position: absolute;
   }
   
   .topnav a {
@@ -25,16 +25,9 @@
   
   .topnav a:hover {
     background-color: lightblue;
-    /*background-color: #ddd;*/
-    color: black;
   }
   
   .topnav a.active {
     background-color: blue;
     color: white;
   }
-  
-  .topnav-right {
-    float: right;
-  }
-
